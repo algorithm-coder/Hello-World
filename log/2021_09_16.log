@@ -1,0 +1,245 @@
+2021-09-16 20:58:43.272903 [info] : ========== Server init ==========
+2021-09-16 20:58:43.272936 [info] : Port:10000, OpenLinger: false
+2021-09-16 20:58:43.272941 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-09-16 20:58:43.272944 [info] : LogSys level: 1
+2021-09-16 20:58:43.272947 [info] : srcDir: /home/xqm/WebServer/resources/
+2021-09-16 20:58:43.272950 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-09-16 20:58:43.272954 [info] : ========== Server start ==========
+2021-09-16 20:58:45.865149 [info] : Client[6](183.214.173.226:21821) in, userCount:1
+2021-09-16 20:58:45.865258 [info] : Client[6] in!
+2021-09-16 20:58:46.648832 [info] : Client[7](183.214.173.226:60223) in, userCount:2
+2021-09-16 20:58:46.648900 [info] : Client[7] in!
+2021-09-16 20:58:46.655610 [info] : Client[8](183.214.173.226:61503) in, userCount:3
+2021-09-16 20:58:46.655645 [info] : Client[8] in!
+2021-09-16 20:58:46.658101 [info] : Client[10](183.214.173.226:2368) in, userCount:4
+2021-09-16 20:58:46.658131 [info] : Client[10] in!
+2021-09-16 20:58:46.658686 [info] : Client[11](183.214.173.226:60479) in, userCount:5
+2021-09-16 20:58:46.658716 [info] : Client[11] in!
+2021-09-16 20:58:46.825192 [info] : Client[12](183.214.173.226:30272) in, userCount:6
+2021-09-16 20:58:46.826014 [info] : Client[12] in!
+2021-09-16 20:58:49.054622 [info] : Client[12] quit!
+2021-09-16 20:58:49.054696 [info] : Client[12](183.214.173.226:30272) quit, UserCount:5
+2021-09-16 20:59:25.545129 [info] : Client[9](183.214.173.226:55222) in, userCount:6
+2021-09-16 20:59:25.546070 [info] : Client[9] in!
+2021-09-16 20:59:28.264891 [info] : Client[7] quit!
+2021-09-16 20:59:28.265032 [info] : Client[7](183.214.173.226:60223) quit, UserCount:5
+2021-09-16 20:59:49.069389 [info] : Client[12] quit!
+2021-09-16 21:00:07.395346 [info] : Verify name:xqm pwd:123456
+2021-09-16 21:01:43.574575 [info] : ========== Server init ==========
+2021-09-16 21:01:43.574590 [info] : Port:10000, OpenLinger: false
+2021-09-16 21:01:43.574595 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-09-16 21:01:43.574599 [info] : LogSys level: 1
+2021-09-16 21:01:43.574602 [info] : srcDir: /home/xqm/WebServer/resources/
+2021-09-16 21:01:43.574606 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-09-16 21:01:43.574609 [info] : ========== Server start ==========
+2021-09-16 21:01:46.881902 [info] : Client[6](183.214.173.226:46241) in, userCount:1
+2021-09-16 21:01:46.881996 [info] : Client[6] in!
+2021-09-16 21:01:47.302634 [info] : Client[7](183.214.173.226:13475) in, userCount:2
+2021-09-16 21:01:47.302700 [info] : Client[7] in!
+2021-09-16 21:01:47.306567 [info] : Client[8](183.214.173.226:13219) in, userCount:3
+2021-09-16 21:01:47.306599 [info] : Client[8] in!
+2021-09-16 21:01:47.316077 [info] : Client[9](183.214.173.226:12963) in, userCount:4
+2021-09-16 21:01:47.316111 [info] : Client[9] in!
+2021-09-16 21:01:47.327320 [info] : Client[10](183.214.173.226:15267) in, userCount:5
+2021-09-16 21:01:47.327351 [info] : Client[10] in!
+2021-09-16 21:01:47.328891 [info] : Client[11](183.214.173.226:15523) in, userCount:6
+2021-09-16 21:01:47.328918 [info] : Client[11] in!
+2021-09-16 21:01:50.046413 [info] : Client[11] quit!
+2021-09-16 21:01:50.046523 [info] : Client[11](183.214.173.226:15523) quit, UserCount:5
+2021-09-16 21:02:00.779577 [info] : Client[11](183.214.173.226:25295) in, userCount:6
+2021-09-16 21:02:00.779616 [info] : Client[11] in!
+2021-09-16 21:02:02.664084 [info] : Client[7] quit!
+2021-09-16 21:02:02.665007 [info] : Client[7](183.214.173.226:13475) quit, UserCount:5
+2021-09-16 21:02:11.496700 [info] : Verify name:xqm pwd:123456
+2021-09-16 21:02:11.496777 [info] : Verify2 name:xqm pwd:123456
+2021-09-16 21:05:23.253954 [info] : ========== Server init ==========
+2021-09-16 21:05:23.253965 [info] : Port:10000, OpenLinger: false
+2021-09-16 21:05:23.253969 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-09-16 21:05:23.253973 [info] : LogSys level: 1
+2021-09-16 21:05:23.253976 [info] : srcDir: /home/xqm/WebServer/resources/
+2021-09-16 21:05:23.253979 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-09-16 21:05:23.253982 [info] : ========== Server start ==========
+2021-09-16 21:05:26.688188 [info] : Client[6](183.214.173.226:31588) in, userCount:1
+2021-09-16 21:05:26.688281 [info] : Client[6] in!
+2021-09-16 21:05:27.057839 [info] : Client[7](183.214.173.226:51301) in, userCount:2
+2021-09-16 21:05:27.057895 [info] : Client[7] in!
+2021-09-16 21:05:27.083005 [info] : Client[8](183.214.173.226:55397) in, userCount:3
+2021-09-16 21:05:27.083046 [info] : Client[8] in!
+2021-09-16 21:05:27.085686 [info] : Client[9](183.214.173.226:54117) in, userCount:4
+2021-09-16 21:05:27.085711 [info] : Client[9] in!
+2021-09-16 21:05:27.085722 [info] : Client[10](183.214.173.226:52325) in, userCount:5
+2021-09-16 21:05:27.085729 [info] : Client[10] in!
+2021-09-16 21:05:27.092807 [info] : Client[11](183.214.173.226:57189) in, userCount:6
+2021-09-16 21:05:27.092834 [info] : Client[11] in!
+2021-09-16 21:05:28.776081 [info] : Client[11] quit!
+2021-09-16 21:05:28.777004 [info] : Client[11](183.214.173.226:57189) quit, UserCount:5
+2021-09-16 21:05:31.936374 [info] : Client[11](183.214.173.226:19830) in, userCount:6
+2021-09-16 21:05:31.937293 [info] : Client[11] in!
+2021-09-16 21:05:33.726978 [info] : Client[7] quit!
+2021-09-16 21:05:33.727873 [info] : Client[7](183.214.173.226:51301) quit, UserCount:5
+2021-09-16 21:05:40.866289 [info] : Verify name:43543 pwd:35546
+2021-09-16 21:05:40.866366 [info] : Verify2 name:43543 pwd:35546
+2021-09-16 21:07:15.241608 [info] : ========== Server init ==========
+2021-09-16 21:07:15.241625 [info] : Port:10000, OpenLinger: false
+2021-09-16 21:07:15.241630 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-09-16 21:07:15.241634 [info] : LogSys level: 1
+2021-09-16 21:07:15.241638 [info] : srcDir: /home/xqm/WebServer/resources/
+2021-09-16 21:07:15.241642 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-09-16 21:07:15.241646 [info] : ========== Server start ==========
+2021-09-16 21:07:19.249403 [info] : Client[6](183.214.173.226:28083) in, userCount:1
+2021-09-16 21:07:19.249480 [info] : Client[6] in!
+2021-09-16 21:07:19.267500 [info] : Client[7](183.214.173.226:30643) in, userCount:2
+2021-09-16 21:07:19.267530 [info] : Client[7] in!
+2021-09-16 21:07:19.267819 [info] : Client[8](183.214.173.226:33203) in, userCount:3
+2021-09-16 21:07:19.267844 [info] : Client[8] in!
+2021-09-16 21:07:19.274164 [info] : Client[9](183.214.173.226:35507) in, userCount:4
+2021-09-16 21:07:19.274194 [info] : Client[9] in!
+2021-09-16 21:07:19.367946 [info] : Client[6] quit!
+2021-09-16 21:07:19.368010 [info] : Client[6](183.214.173.226:28083) quit, UserCount:3
+2021-09-16 21:07:25.277204 [info] : Client[9] quit!
+2021-09-16 21:07:25.277315 [info] : Client[9](183.214.173.226:35507) quit, UserCount:2
+2021-09-16 21:07:25.278260 [info] : Client[8] quit!
+2021-09-16 21:07:25.278307 [info] : Client[8](183.214.173.226:33203) quit, UserCount:1
+2021-09-16 21:07:25.279681 [info] : Client[7] quit!
+2021-09-16 21:07:25.279726 [info] : Client[7](183.214.173.226:30643) quit, UserCount:0
+2021-09-16 21:07:26.205248 [info] : Client[6](183.214.173.226:47557) in, userCount:1
+2021-09-16 21:07:26.205321 [info] : Client[6] in!
+2021-09-16 21:08:19.098092 [info] : ========== Server init ==========
+2021-09-16 21:08:19.098103 [info] : Port:10000, OpenLinger: false
+2021-09-16 21:08:19.098107 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-09-16 21:08:19.098110 [info] : LogSys level: 1
+2021-09-16 21:08:19.098113 [info] : srcDir: /home/xqm/WebServer/resources/
+2021-09-16 21:08:19.098116 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-09-16 21:08:19.098119 [info] : ========== Server start ==========
+2021-09-16 21:08:21.561534 [info] : Client[6](183.214.173.226:60529) in, userCount:1
+2021-09-16 21:08:21.561631 [info] : Client[6] in!
+2021-09-16 21:08:22.101940 [info] : Client[7](183.214.173.226:42355) in, userCount:2
+2021-09-16 21:08:22.102010 [info] : Client[7] in!
+2021-09-16 21:08:22.116213 [info] : Client[8](183.214.173.226:43379) in, userCount:3
+2021-09-16 21:08:22.116292 [info] : Client[8] in!
+2021-09-16 21:08:22.117223 [info] : Client[9](183.214.173.226:41331) in, userCount:4
+2021-09-16 21:08:22.117253 [info] : Client[9] in!
+2021-09-16 21:08:22.125552 [info] : Client[10](183.214.173.226:45427) in, userCount:5
+2021-09-16 21:08:22.125635 [info] : Client[10] in!
+2021-09-16 21:08:22.139053 [info] : Client[11](183.214.173.226:45683) in, userCount:6
+2021-09-16 21:08:22.139093 [info] : Client[11] in!
+2021-09-16 21:08:25.483769 [info] : Client[11] quit!
+2021-09-16 21:08:25.484713 [info] : Client[11](183.214.173.226:45683) quit, UserCount:5
+2021-09-16 21:08:29.296155 [info] : Client[11](183.214.173.226:15498) in, userCount:6
+2021-09-16 21:08:29.297096 [info] : Client[11] in!
+2021-09-16 21:08:31.818293 [info] : Client[7] quit!
+2021-09-16 21:08:31.818352 [info] : Client[7](183.214.173.226:42355) quit, UserCount:5
+2021-09-16 21:08:37.234039 [info] : Verify name:354564 pwd:3423
+2021-09-16 21:10:39.243131 [info] : ========== Server init ==========
+2021-09-16 21:10:39.243139 [info] : Port:10000, OpenLinger: false
+2021-09-16 21:10:39.243143 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-09-16 21:10:39.243146 [info] : LogSys level: 1
+2021-09-16 21:10:39.243149 [info] : srcDir: /home/xqm/WebServer/resources/
+2021-09-16 21:10:39.243152 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-09-16 21:10:39.243155 [info] : ========== Server start ==========
+2021-09-16 21:11:05.253533 [info] : Client[6](183.214.173.226:7921) in, userCount:1
+2021-09-16 21:11:05.253624 [info] : Client[6] in!
+2021-09-16 21:11:05.257612 [info] : Client[7](183.214.173.226:8689) in, userCount:2
+2021-09-16 21:11:05.257643 [info] : Client[7] in!
+2021-09-16 21:11:05.559792 [info] : Client[8](183.214.173.226:15346) in, userCount:3
+2021-09-16 21:11:05.559851 [info] : Client[8] in!
+2021-09-16 21:11:05.563727 [info] : Client[9](183.214.173.226:15090) in, userCount:4
+2021-09-16 21:11:05.563764 [info] : Client[9] in!
+2021-09-16 21:11:05.565802 [info] : Client[10](183.214.173.226:16626) in, userCount:5
+2021-09-16 21:11:05.565831 [info] : Client[10] in!
+2021-09-16 21:11:05.571587 [info] : Client[11](183.214.173.226:14578) in, userCount:6
+2021-09-16 21:11:05.571616 [info] : Client[11] in!
+2021-09-16 21:11:07.807182 [info] : Client[7] quit!
+2021-09-16 21:11:07.807273 [info] : Client[7](183.214.173.226:8689) quit, UserCount:5
+2021-09-16 21:11:11.657096 [info] : Client[7](183.214.173.226:26635) in, userCount:6
+2021-09-16 21:11:11.657996 [info] : Client[7] in!
+2021-09-16 21:11:23.988573 [info] : Verify name:24656 pwd:13243
+2021-09-16 21:14:39.117969 [info] : ========== Server init ==========
+2021-09-16 21:14:39.117978 [info] : Port:10000, OpenLinger: false
+2021-09-16 21:14:39.117982 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-09-16 21:14:39.117985 [info] : LogSys level: 1
+2021-09-16 21:14:39.117988 [info] : srcDir: /home/xqm/WebServer/resources/
+2021-09-16 21:14:39.117991 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-09-16 21:14:39.117995 [info] : ========== Server start ==========
+2021-09-16 21:14:42.518174 [info] : Client[6](183.214.173.226:28713) in, userCount:1
+2021-09-16 21:14:42.519600 [info] : Client[6] in!
+2021-09-16 21:14:42.519627 [info] : Client[7](183.214.173.226:25897) in, userCount:2
+2021-09-16 21:14:42.519637 [info] : Client[7] in!
+2021-09-16 21:14:42.844475 [info] : Client[8](183.214.173.226:5931) in, userCount:3
+2021-09-16 21:14:42.844563 [info] : Client[8] in!
+2021-09-16 21:14:42.845199 [info] : Client[9](183.214.173.226:6187) in, userCount:4
+2021-09-16 21:14:42.845226 [info] : Client[9] in!
+2021-09-16 21:14:42.845237 [info] : Client[10](183.214.173.226:3371) in, userCount:5
+2021-09-16 21:14:42.845244 [info] : Client[10] in!
+2021-09-16 21:14:42.846205 [info] : Client[11](183.214.173.226:6443) in, userCount:6
+2021-09-16 21:14:42.846232 [info] : Client[11] in!
+2021-09-16 21:14:45.473359 [info] : Client[6] quit!
+2021-09-16 21:14:45.474187 [info] : Client[6](183.214.173.226:28713) quit, UserCount:5
+2021-09-16 21:14:49.677355 [info] : Client[6](183.214.173.226:58181) in, userCount:6
+2021-09-16 21:14:49.678243 [info] : Client[6] in!
+2021-09-16 21:14:52.151133 [info] : Client[9] quit!
+2021-09-16 21:14:52.151273 [info] : Client[9](183.214.173.226:6187) quit, UserCount:5
+2021-09-16 21:15:01.503118 [info] : Verify name:246 pwd:2456
+2021-09-16 21:35:03.580192 [info] : ========== Server init ==========
+2021-09-16 21:35:03.580201 [info] : Port:10000, OpenLinger: false
+2021-09-16 21:35:03.580205 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-09-16 21:35:03.580209 [info] : LogSys level: 1
+2021-09-16 21:35:03.580212 [info] : srcDir: /home/xqm/WebServer/resources/
+2021-09-16 21:35:03.580215 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-09-16 21:35:03.580218 [info] : ========== Server start ==========
+2021-09-16 21:35:11.549453 [info] : Client[6](183.214.173.226:16977) in, userCount:1
+2021-09-16 21:35:11.549568 [info] : Client[6] in!
+2021-09-16 21:35:11.551355 [info] : Client[8](183.214.173.226:14673) in, userCount:2
+2021-09-16 21:35:11.551384 [info] : Client[8] in!
+2021-09-16 21:35:11.671865 [info] : Client[7](183.214.173.226:46161) in, userCount:3
+2021-09-16 21:35:11.671931 [info] : Client[7] in!
+2021-09-16 21:35:11.675118 [info] : Client[9](183.214.173.226:47185) in, userCount:4
+2021-09-16 21:35:11.675153 [info] : Client[9] in!
+2021-09-16 21:35:11.676735 [info] : Client[11](183.214.173.226:45393) in, userCount:5
+2021-09-16 21:35:11.676764 [info] : Client[11] in!
+2021-09-16 21:35:11.685714 [info] : Client[10](183.214.173.226:46673) in, userCount:6
+2021-09-16 21:35:11.686612 [info] : Client[10] in!
+2021-09-16 21:35:13.893274 [info] : Client[8] quit!
+2021-09-16 21:35:13.893406 [info] : Client[8](183.214.173.226:14673) quit, UserCount:5
+2021-09-16 21:35:15.745252 [info] : Client[8](183.214.173.226:48483) in, userCount:6
+2021-09-16 21:35:15.746040 [info] : Client[8] in!
+2021-09-16 21:35:17.771421 [info] : Client[10] quit!
+2021-09-16 21:35:17.771583 [info] : Client[10](183.214.173.226:46673) quit, UserCount:5
+2021-09-16 21:35:23.619143 [info] : Verify name:23576 pwd:31245646
+2021-09-16 22:27:46.827176 [info] : ========== Server init ==========
+2021-09-16 22:27:46.827184 [info] : Port:10000, OpenLinger: false
+2021-09-16 22:27:46.827188 [info] : Listen Mode: ET, OpenConn Mode: ET
+2021-09-16 22:27:46.827191 [info] : LogSys level: 1
+2021-09-16 22:27:46.827194 [info] : srcDir: /home/xqm/WebServer/resources/
+2021-09-16 22:27:46.827197 [info] : SqlConnPool num: 12, ThreadPool num: 6
+2021-09-16 22:27:46.827200 [info] : ========== Server start ==========
+2021-09-16 22:27:57.006824 [info] : Client[6](183.214.173.226:17522) in, userCount:1
+2021-09-16 22:27:57.006921 [info] : Client[6] in!
+2021-09-16 22:27:57.020061 [info] : Client[7](183.214.173.226:20594) in, userCount:2
+2021-09-16 22:27:57.020117 [info] : Client[7] in!
+2021-09-16 22:27:57.136369 [info] : Client[8](183.214.173.226:46450) in, userCount:3
+2021-09-16 22:27:57.137013 [info] : Client[8] in!
+2021-09-16 22:27:57.139556 [info] : Client[10](183.214.173.226:44402) in, userCount:4
+2021-09-16 22:27:57.139883 [info] : Client[10] in!
+2021-09-16 22:27:57.146054 [info] : Client[9](183.214.173.226:44658) in, userCount:5
+2021-09-16 22:27:57.147005 [info] : Client[9] in!
+2021-09-16 22:27:57.148163 [info] : Client[11](183.214.173.226:44914) in, userCount:6
+2021-09-16 22:27:57.148489 [info] : Client[11] in!
+2021-09-16 22:27:58.688282 [info] : Client[7] quit!
+2021-09-16 22:27:58.688928 [info] : Client[7](183.214.173.226:20594) quit, UserCount:5
+2021-09-16 22:28:03.468244 [info] : Client[7](183.214.173.226:42375) in, userCount:6
+2021-09-16 22:28:03.468947 [info] : Client[7] in!
+2021-09-16 22:28:11.563366 [info] : Verify name:35345 pwd:3423
+2021-09-16 22:28:11.565972 [error]: RequestLine Error
+2021-09-16 22:28:11.570185 [info] : Client[9] quit!
+2021-09-16 22:28:11.570235 [info] : Client[9](183.214.173.226:44658) quit, UserCount:5
+2021-09-16 22:28:11.745190 [info] : Client[9](183.214.173.226:26275) in, userCount:6
+2021-09-16 22:28:11.746386 [info] : Client[9] in!
+2021-09-16 22:28:54.205012 [info] : Client[6] quit!
+2021-09-16 22:28:54.205131 [info] : Client[6](183.214.173.226:17522) quit, UserCount:5
+2021-09-16 22:28:54.205968 [info] : Client[10] quit!
+2021-09-16 22:28:54.207996 [info] : Client[10](183.214.173.226:44402) quit, UserCount:4
+2021-09-16 22:28:54.208026 [info] : Client[8] quit!
+2021-09-16 22:28:54.208060 [info] : Client[8](183.214.173.226:46450) quit, UserCount:3
+2021-09-16 22:28:54.208225 [info] : Client[7] quit!
+2021-09-16 22:28:54.208291 [info] : Client[7](183.214.173.226:42375) quit, UserCount:2

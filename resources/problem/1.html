@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+     <meta charset="UTF-8">
+
+     <title>1. A + B</title>
+     <link rel="icon" href="../images/favicon.ico">
+     <link rel="stylesheet" href="../bootstrap-3.4.1-dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="../css/animate.css">
+     <link rel="stylesheet" href="../css/magnific-popup.css">
+     <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+     <!-- Main css -->
+     <link rel="stylesheet" href="../css/style.css">
+
+	 <!--codemirror基本文件-->
+	 <link rel="stylesheet" href="../codemirror-5.63.0/lib/codemirror.css"/>
+	 <script src="../codemirror-5.63.0/lib/codemirror.js"></script>
+	 <!--编辑器主题-->
+	 <link rel="stylesheet" href="../codemirror-5.63.0/theme/dracula.css"/>
+	 <link rel="stylesheet" href="../codemirror-5.63.0/theme/solarized.css"/>
+	 <!-- hint -->
+	 <script src="../codemirror-5.63.0/addon/hint/javascript-hint.js"></script>
+	 <script src="../codemirror-5.63.0/addon/hint/show-hint.js"></script>
+	 <link href="../codemirror-5.63.0/addon/hint/show-hint.css" rel="stylesheet">
+	 <!--mode 语言代码高亮-->
+	 <script src="../codemirror-5.63.0/mode/clike/clike.js"></script>
+	 <!--编辑器属性配置-->
+	 <script src="../codemirror-5.63.0/addon/edit/closebrackets.js"></script>
+	 <script src="../codemirror-5.63.0/addon/edit/closetag.js"></script>
+	 <script src="../codemirror-5.63.0/addon/edit/continuelist.js"></script>
+	 <script src="../codemirror-5.63.0/addon/edit/matchbrackets.js"></script>
+	 <script src="../codemirror-5.63.0/addon/edit/matchtags.js"></script>
+	 <script src="../codemirror-5.63.0/addon/edit/trailingspace.js"></script>
+
+     <!-- mathjax -->
+     <!--
+	<script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+            showMathMenu: false,
+          });
+     </script>
+     <script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+     -->
+
+     <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+              showProcessingMessages: false,
+              messageStyle: "none",
+              extensions: ["tex2jax.js"],
+              jax: ["input/TeX", "output/HTML-CSS"],
+              tex2jax: {
+                  inlineMath:  [ ["$", "$"] ],
+                  displayMath: [ ["$$","$$"] ],
+                  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'],
+                  ignoreClass:"comment-content"
+              },
+              "HTML-CSS": {
+                  availableFonts: ["STIX","TeX"],
+                  showMathMenu: false
+              }
+          });
+          MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+     </script>
+     <script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+     <link rel="dns-prefetch" href="//cdn.mathjax.org" />
+     
+     <!-- marked -->
+     <link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">
+     <script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+     <script type="text/javascript" src="../marked-master/marked.min.js"></script>
+     
+     <script>hljs.initHighlightingOnLoad();</script>
+     
+      <!-- 设置内边距 -->
+     <style type="text/css">
+          body { padding-top: 70px; } 
+          .myPadding-1 {
+               padding-top: 10px;
+               padding-bottom: 10px;
+          }
+          .myPadding-2 {
+               padding-top: 10px;
+               padding-bottom: 10px;
+          }
+     </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+     <!-- PRE LOADER -->
+     <div class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
+          </div>
+     </div>
+
+
+     <!-- 导航条 -->
+     <!-- 需要为 body 元素设置内补（padding）
+          这个固定的导航条会遮住页面上的其它内容，除非你给 <body> 元素底部设置了 padding。用你自己的值，或用下面给出的代码都可以。提示：导航条的默认高度是 50px。
+          body { padding-top: 70px; } -->
+     <div class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+                    <!-- lOGO TEXT HERE -->
+                    <a href="/" class="navbar-brand">Mark</a>
+               </div>
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a class="smoothScroll" href="/">首页</a></li>
+                         <li><a class="smoothScroll" href="/picture">图片</a></li>
+                         <li><a class="smoothScroll" href="/video">视频</a></li>
+                         <li><a class="smoothScroll" href="/problemset">题库</a></li>
+                         <li><a class="smoothScroll" href="/login">登录</a></li>
+                         <li><a class="smoothScroll" href="/register">注册</a></li>
+                         <li class="dropdown">
+                              <a href="#" class="btn btn-success dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                   User <span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="/index">个人中心</a></li>
+                                <li><a href="/picture">修改密码</a></li>
+                                <li><a href="/index">更多</a></li>
+                                <!--分割线-->
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">退出</a></li>
+                              </ul>
+                         </li>
+                         <li>
+                              <form class="navbar-form navbar-left">
+                                   <div class="form-group">
+                                     <input type="text" class="form-control" placeholder="Search" name="Search">
+                                   </div>
+                                   <button type="submit" class="btn btn-default">Submit</button>
+                              </form>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </div>
+     <div class="container">
+          <div class="row">
+              <div class="col-xs-8">
+                  <div class="main-martor main-martor-content" data-field-name="content">
+                      <div class="section-martor">
+                          <div class="ui bottom attached tab active martor-preview" data-tab="preview-tab-content">
+                              <div name="content">

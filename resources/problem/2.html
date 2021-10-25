@@ -1,0 +1,93 @@
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container myPadding-1">
+<div class="row">
+<div class="col-xs-8">
+<form method="GET">
+<div class="row myPadding-2">
+    <div class="col-xs-4">
+         <select class="form-control" id="language" name="language" onclick="changeLanguage()">
+              <option value="c++">c++</option>
+              <option value="java">java</option>
+         </select>
+    </div>
+    <div class="col-xs-4 col-xs-offset-4">
+         <select class="form-control" id="theme" name="theme" onclick="changeTheme()">
+              <option value="dracula">dracula</option>
+              <option value="solarized">solarized</option>
+         </select>
+    </div>
+</div>
+<textarea class="form-control" id="code" name="code"> </textarea>
+<button class="btn btn-success" data-toggle="modal" data-target="#login-modal" style="float: right; border-radius: 20px; margin: 20px 0 0 20px;">
+   <span class="glyphicon glyphicon-cloud-upload" style="top: 1px;"></span>
+   &nbsp;
+   提交代码
+   &nbsp;
+</button>
+</form>
+</div>
+</div>
+</div>
+<div class="container myPadding-1">
+<div class="row">
+<div class="col-xs-8" id="content">
+
+</div>
+</div>
+</div>
+
+<!-- SCRIPTS -->
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/smoothscroll.js"></script>
+<script src="../js/jquery.magnific-popup.min.js"></script>
+<script src="../js/magnific-popup-options.js"></script>
+<script src="../js/wow.min.js"></script>
+<script src="../js/custom.js"></script>
+<script>
+function changeLanguage() {
+var language = document.getElementById("language").value;
+if (language == "c++") editor.setOption("mode", "text/x-c++src");
+else editor.setOption("mode", "text/x-java");
+}
+function changeTheme() {
+     var theme = document.getElementById("theme").value;
+     editor.setOption("theme", theme);
+}
+var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+lineNumbers: true, 									// 显示行号
+matchBrackets: true, 									// 括号匹配
+mode: "text/x-c++src", 								// c++代码高亮
+autoCloseBrackets: true, 								// 自动关闭括号
+autofocus: true, 										// 自动专注
+extraKeys:{"Ctrl-Space":"autocomplete"}                     //ctrl-space唤起智能提示
+});
+var rendererMD = new marked.Renderer();
+marked.setOptions({
+renderer: rendererMD,
+gfm: true,
+tables: true,
+breaks: false,
+pedantic: false,
+sanitize: false,
+smartLists: true,
+smartypants: false,
+highlight: function (code) {
+     return hljs.highlightAuto(code).value;
+}
+});
+// hljs.initHighlighting();
+var arr=document.getElementsByName("content");
+for (var i = 0; i < arr.length; i++) {
+arr[i].innerHTML = marked(arr[i].innerText);
+}
+</script>
+</body>
+</html>

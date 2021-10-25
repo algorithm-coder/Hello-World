@@ -1,0 +1,12 @@
+var op=document.getElementById("t1");
+var op2=document.getElementById("t2");
+var newli=document.createElement("li");
+var newa=document.createElement("a");
+op.appendChild(newli);
+newa.className="smoothScroll";
+newa.href="/video";
+newa.innerHTML=name;
+newli.appendChild(newa);
+op2.innerHTML+=name;
+</script>
+</html>
